@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#202020;
+}
+
+.add-form {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    margin: auto;
+gap: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+
+button {
+    display: block;
+    background-color: #202020;
+    color: white;
+    width: 20%;
+    padding-block: 5px;
+    border-radius: 20px;
+    border: 1px solid white;
+margin: auto;
+}
+#reset-btn{
+
+width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+button:hover {
+    background-color: darkslategray;
+    color: black;
+
+
+}
+
+.todo-container {
+    padding-block: 80px;
+    width: 80%;
+    margin: auto;
+}
+
+.box {
+    margin: auto;
+    border: 1px solid darkslategray;
+    background-color: #252525;
+    padding: 50px;
+
+}
+.box h3{
+padding-bottom: 20px;
+font-size: 1.4rem;
+color: white;
+}
+.box .task {
+   background-color: darkslategray;
+   padding:10px 20px;
+   margin: 10px;
+   color: white;
+border-radius: 50px;
+cursor: move;
+}
+.d-flex {
+    display: flex;
+}
+.task.is-dragging{
+    background-color: white;
+    border: 1px solid darkslategray;
+    color: black;
+}
+.location{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+.task-container{
+    display: flex;
+}
+.task-container button{
+    width: fit-content;
+    padding: 5px 20px;
+}
